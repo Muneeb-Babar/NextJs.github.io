@@ -16,11 +16,10 @@
   }
 }
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
-      /* transparent, */
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
@@ -30,7 +29,7 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
 .hide{
   display: none;
 }
@@ -44,7 +43,9 @@ body {
   display: block;
 }
 
-
+input {
+  border: 1px solid #ccc; /* Adjust the color and thickness as needed */
+}
 
 @media screen and (max-width:600px) {
   .nav-btn{

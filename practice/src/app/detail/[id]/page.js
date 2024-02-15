@@ -1,4 +1,5 @@
 
+import Navbar from "@/components/navbar/page";
 import Detail from "./Detail"
 
 export default async function DetailContainer(props) {
@@ -10,6 +11,7 @@ export default async function DetailContainer(props) {
 
     console.log(meme);
     return <div>
+        <Navbar/>
         {/* {result.name}
         <div><img src={result.url} className="w-48 cursor-pointer"/></div> */}
         <Detail data={meme}/>
