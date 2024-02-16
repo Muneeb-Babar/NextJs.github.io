@@ -40,7 +40,7 @@ export default function Home() {
       </div>
 
       <div className="mb-32 text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 
-      lg:text-left text-2xl bg-black text-white px-5 py-3 rounded-3xl">
+      lg:text-center text-2xl bg-black text-white px-5 py-3 rounded-3xl">
       <Link href="/dashboard">Go To Gallery</Link>
       </div>
     </main>
