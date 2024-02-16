@@ -59,4 +59,9 @@ input {
     justify-content: space-between;
     align-items: center;
   }
+  .contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

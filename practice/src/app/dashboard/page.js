@@ -18,7 +18,7 @@ export default async function Dashboard(){
     
 <Navbar/>
 
-<div className="flex flex-wrap justify-around  align-middle gap-24 mx-20 mt-24 shadow-2xl">
+<div className="flex flex-wrap justify-around  align-middle gap-24 mx-10 mt-24 shadow-2xl">
 {meme.map((item,index)=>{
     return <div  key={index}>
         <Link href={`/detail/${item.id}`}>
