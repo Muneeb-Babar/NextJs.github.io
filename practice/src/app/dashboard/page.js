@@ -10,10 +10,7 @@ export default async function Dashboard(){
     const res=await fetch('https://api.imgflip.com/get_memes')
     const result=await res.json()
     console.log(result.data.memes)
-
     const meme=result.data.memes
-
-
     return <div>
     
 <Navbar/>

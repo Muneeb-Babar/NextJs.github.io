@@ -41,13 +41,13 @@ return (
         </div>
     </div>
       {/* Inputs */}
-    <div className="flex justify-center gap-4 mt-10 flex-wrap contain ">
+    <div className="flex justify-center gap-2 align-middle mt-10 flex-wrap contain ">
         <div>
         <input
             className="p-2"
             placeholder="Enter First Text"
             type="text"
-            size={30}
+            size={25}
             onChange={(e) => setInput1(e.target.value)}
         />
         </div>
@@ -56,7 +56,7 @@ return (
             className="p-2"
             placeholder="Enter Second Text"
             type="text"
-            size={30}
+            size={25}
             onChange={(e) => setInput2(e.target.value)}
         />
         </div>
