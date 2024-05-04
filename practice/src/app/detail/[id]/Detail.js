@@ -29,6 +29,15 @@ export default function Detail(props) {
 const hanleClick=()=>{
     postApi()
 }
+// const handleDownload = () => {
+//     window.open(generatedImageUrl, "_blank");
+//     const link = document.createElement("a");
+//     link.href = generatedImageUrl;
+//     link.download = "generated_meme.jpg"; // You can set the file name here
+//     document.body.appendChild(link);
+//     link.click();
+//     document.body.removeChild(link);
+// };
 
 return (
     <div className="w-full">
@@ -67,6 +76,9 @@ return (
     {generatedImageUrl && (
                 <div className="flex justify-center mt-10">
                     <img src={generatedImageUrl} className="w-80 h-56" alt="Generated Meme" />
+                    {/* <button className="mx-4 rounded-xl bg-blue-500 text-white px-3 py-2" onClick={handleDownload}>
+                        Download
+                    </button> */}
                 </div>
             )}
     </div>
